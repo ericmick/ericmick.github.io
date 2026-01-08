@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eric Mickelsen, Resume</title>
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      display: grid;
+      font-family: "Noto Sans", sans-serif;
+      grid-template-columns: [headings] 12.5rem [main] 1fr;
+      margin: 1rem auto;
+      max-width: 60rem;
+      padding: 0 1rem;
+    }
+
+    @media (width <=40rem) {
+      body {
+        grid-template-columns: [main] 1fr;
+      }
+    }
+
+    body>*>*:first-child {
+      margin-top: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #333;
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      line-height: 1.25;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: .5rem 0;
+    }
+
+    h2 {
+      color: cornflowerblue;
+    }
+
+    h3 {
+      font-family: "Courier Prime", monospace;
+      font-size: 1.6rem;
+    }
+
+    h3::before {
+      color: cornflowerblue;
+      content: '<';
+    }
+
+    h3::after {
+      color: cornflowerblue;
+      content: '>';
+    }
+
+    h4 {
+      font-size: 1.25rem;
+      margin-bottom: .5rem;
+    }
+
+    h5 {
+      color: #444;
+      display: grid;
+      font-size: .75rem;
+      font-weight: 700;
+      grid-template-columns: 2fr 3fr 1fr;
+      margin: .5rem 0;
+    }
+
+    h5> :last-child {
+      display: flex;
+      justify-content: right;
+    }
+
+    p {
+      margin: .5rem 1rem 1.5rem
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Eric Mickelsen</h1>
+  </header>
+  <section>
+    <h2>Software Engineer</h2>
+    <p>
+      Eric Mickelsen<br />
+      9548 7th Ave. NW<br />
+      Seattle, WA 98117
+    </p>
+    <p>
+      412-523-3849<br />
+      <a href="mailto:mickelsen.eric@gmail.com">
+        mickelsen.eric@gmail.com
+      </a>
+    </p>
+  </section>
+  <header>
+    <h3>skills</h3>
+  </header>
+  <section>
+    <h4>Full-stack software engineering</h4>
+    Databases, data processing and services, with a specialization in visualization and web
+    experience
+    <h5>Languages</h5>
+    <p>JavaScript (TypeScript), C#, C++ (some Java, PHP, Python)</p>
+    <h5>Technology</h5>
+    <p>HTML5/CSS, Node.js, React, SQL (T-SQL, MySQL, Postgres), Redis</p>
+  </section>
+  <header>
+    <h3>experience</h3>
+  </header>
+  <section>
+    <h4>Wren Climate, PBC / <a href="https://wren.co">wren.co</a></h4>
+    <h5>
+      <span>Mar 2022 – present</span>
+      <span>Senior Software Engineer</span>
+      <span>remote</span>
+    </h5>
+    <p>Providing technical leadership and full-stack development for a climate-solutions platform
+    </p>
+    <p>Building an AI-powered insights product for renewable energy siting from the ground up: <a
+        href="https://toposdata.com">toposdata.com</a></p>
+    <h4>Tableau (Salesforce)</h4>
+    <h5>
+      <span>Nov 2020 – Feb 2022</span>
+      <span>Senior Member of Technical Staff</span>
+      <span>Seattle, WA</span>
+    </h5>
+    <p>Improving the core Tableau visual analytics experience to the delight of analysts and their
+      audiences</p>
+    <h4>Amazon.com</h4>
+    <h5>
+      <span>Feb 2012 – Nov 2020</span>
+      <span>Software Development Engineer</span>
+      <span>Seattle, WA</span>
+    </h5>
+    <p>Developing front-end features and improvements, theming and customization in AWS Quicksight’s
+      main data
+      analysis
+      experience</p>
+    <p>Leading a team creating innovative advertising experiments</p>
+    <p>Building custom experiences for Amazon’s largest advertisers ($300k+), estimating,
+      architecting and delivering
+      bespoke ad-driven experiences from client request to in-flight support</p>
+    <p>Automating ad creation, data-driven display, video and landing pages</p>
+    <h4>Lucas Systems</h4>
+    <h5>
+      <span>Jun 2008 – Feb 2012</span>
+      <span>Software Engineer</span>
+      <span>Wexford, PA</span>
+    </h5>
+    <p>Building .NET-based voice-directed logistics software to meet client specifications and
+      improve warehouse
+      productivity</p>
+    <h5>
+      <span>May 2007 – May 2008</span>
+      <span>Support Intern</span>
+      <span>Wexford, PA</span>
+    </h5>
+    <p>Handling support issues, bug fixes and enhancement requests, working closely with clients</p>
+  </section>
+  <header>
+    <h3>education</h3>
+  </header>
+  <section>
+    <h4>Grove City College</h4>
+    <h5>
+      <span>2004 – 2008</span>
+      <span>Bachelor of Science in Computer Science</span>
+      <span>Grove City, PA</span>
+    </h5>
+    <p>Graduated with Honors in Computer Science</p>
+    <p>ACM International Programming Competition, 2006 and 2007</p>
+    <p>Business plan competitions: Carnegie Mellon University, finalist; Grove City College, second
+      place (OneSketch)
+    </p>
+    <p>Independent study in game programming</p>
+  </section>
+</body>
+
+</html>
